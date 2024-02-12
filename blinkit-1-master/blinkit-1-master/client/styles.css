@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#errorMessage {
+    margin-top: 10px;
+}
+
+#uploadedImages {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

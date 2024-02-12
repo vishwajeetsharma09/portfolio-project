@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to the Dashboard</h1>
+    <h2>Hello, <span id="username"></span>!</h2>
+    <form id="imageUploadForm" enctype="multipart/form-data">
+        <input type="file" id="image" name="image" required><br>
+        <button type="submit">Upload Image</button>
+    </form>
+    <div id="uploadedImages"></div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
